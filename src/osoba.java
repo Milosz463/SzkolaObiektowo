@@ -16,7 +16,21 @@ public class osoba {
         this.nazwisko = nazwisko;
         this.wiek = wiek;
     }
-//metody dostepowe
+    //przeciazanie konstruktora
+
+    public osoba(String imie, String nazwisko) {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+        wiek=7;//jezeli nie ma lokalnie zmiennej g to nie ma pola klasy
+    }
+
+    public osoba() {
+        imie="";
+        nazwisko="";
+        wiek=0;
+    }
+
+    //metody dostepowe
     //gettery i settery
     public String getImie() {
         return imie;
