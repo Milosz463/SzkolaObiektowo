@@ -64,4 +64,13 @@ public class osoba {
     public void setWiek(int wiek) {
         this.wiek = wiek;
     }
+
+    @Override
+    public String toString() {
+        return "osoba{" +
+                "imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                ", wiek=" + wiek +
+                '}';
+    }
 }
