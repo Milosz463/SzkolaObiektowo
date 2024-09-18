@@ -1,18 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-       osoba osobaJas=new osoba("Jas","Sliweczka", 10);
 
-        System.out.println(osobaJas.getImie());
-        System.out.println(osobaJas.getNazwisko());
-        osobaJas.setImie("Jan");
-
-        osoba osobaAla=new osoba("Ala", "Fala");
-        System.out.println(osobaJas.getWiek());
-        System.out.println(osobaAla.getWiek());
-        osoba osobaX=new osoba();
-
-        System.out.println(osobaJas);
         System.out.println("Liczba uczniow"+uczen.liczbaObiektow);
         uczen uczen=new uczen("Daniel","Nowy");
         System.out.println("Liczba uczniow"+uczen.liczbaObiektow);
