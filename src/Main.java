@@ -13,6 +13,14 @@ public class Main {
      nauczyciele nauczyciel=new nauczyciele("Marlena", "Slowik", "matematyka");
      System.out.println(nauczyciel);
 
+        Klasa klasa3a=new Klasa("3a_progrmaisci", nauczycielSlowik );
+     klasa3a.dodajUczniaDoKlasy(uczen);
+     klasa3a.dodajUczniaDoKlasy(uczen2);
+     klasa3a.dodajUczniaDoKlasy(uczen3);
+        System.out.println(klasa3a);
+
+        Szkola zs10=Szkola.getSzkola();//metody statyczne wywolujemy dla klas
+
 
             }
 }
